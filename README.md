@@ -7,3 +7,4 @@ Lab exercises for fundamental concepts in Java SE 21 in preparation for develope
 - `lab 01`: object-oriented concepts, polymorphism
 - `lab 02`: handle text and numeric variables
 - `lab 03`: abstract classes and interfaces
+- `lab 04`: handle errors and exceptional conditions
