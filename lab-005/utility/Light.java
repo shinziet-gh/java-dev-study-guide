@@ -4,6 +4,8 @@ public class Light {
     protected int noOfWatts;
     private boolean indicator;
     protected String location;
+    protected String lightType = "Generic Light";
+    protected static final double COST_RATE = 0.2;
 
     private static int counter; //counts how many Lights object are created
 
@@ -36,5 +38,17 @@ public class Light {
 
     public int getCount() {
         return this.counter;
+    }
+
+    public double energyCost(int noOfHours) throws InvalidHoursException{
+        if (noOfHours < 0) { 
+            throw new NegativeHoursException();
+        }
+        return noOfHours * COST_RATE;
+    }
+
+    public static void printLightType() {
+        System.out.print(">> Static Light.printLightType(): ");
+        System.out.println("Generic Light");
     }
 }
