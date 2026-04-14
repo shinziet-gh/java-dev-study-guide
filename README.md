@@ -10,3 +10,4 @@ Lab exercises for fundamental concepts in Java SE 21 in preparation for develope
 - `lab 04`: handle errors and exceptional conditions
 - `lab 05`: inheritance, subtyping between subclass and superclass
 - `lab 06`: polymorphism and interfaces
+- `lab 07`: nested classes
